@@ -1,0 +1,229 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+/* Navigation Section*/
+.top-navigation {
+	background-color: #fff;
+	position:fixed;
+    
+   
+}
+.top-navigation > .content{
+	width: 1890px;
+	height: 70px;
+
+}
+
+.top-navigation .logo{
+	height: 70px;
+	margin-left: 25em;
+}
+.top-navigation .links{
+	float:right;
+	margin-right:25em;
+}
+
+.links >li{
+	display: inline-block;
+	font-family: 'Roboto', sans-serif; 
+    font-size: 17px; 
+    color: #838994; 
+    letter-spacing: 0.03em;
+    margin-top: 25px;
+    margin-left:25px;
+	
+}
+
+.top-navigation .links li:hover{
+	cursor:pointer;
+	color: #F06013;
+}
+.top-navigation .links > .active {
+    color: #4c5058;
+    font-weight: 600;
+}
+
+
+.content {
+	padding: 0 15px;
+
+}
+
+/* Middle Part*/
+
+.introduction {
+    background-image: url('http://thinkful-ed.github.io/karma-clone/img/first-background.jpg');
+ background-position: center bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 45.938rem;
+}
+
+.introduction > .content{
+color: white;
+text-align: center;	
+padding: 12em;
+}
+.introduction h1 {
+  font-size: 3.125rem;
+}
+ .introduction h3 {
+ 	margin-top:30px;
+ 	font-size: 25px;
+}
+
+.big-button {
+    text-shadow: none;
+    border-style: none;
+    border-radius: 4px;
+    padding: 16px 26px;
+    line-height: 1.33;
+    margin-top: 30px;
+    width:180px;
+    background-color: #F06013;
+    color:white;
+    font-size: 18px;
+   }
+
+   .big-button:hover {
+   	cursor:pointer;
+   	background-color: #C95908;
+   }
+
+   /* Three-icon Section*/
+
+
+   .cases h2{
+   	text-align: center;
+   	font-size: 2.75rem;
+   	font-weight: 300;
+   }
+
+   .cases .devices{
+   width: 15%;
+   margin-left: 17em;
+   margin-top: 7em;
+   display: inline-block;
+    height: 4em;
+    }
+
+.devices >img {
+	height:200%;
+	margin-left: 2.5em;
+}
+p {
+	font-weight: 400;
+  font-size: 1.600rem;
+  margin: 2.5rem 0px 1.875rem;
+}
+.cases h2{
+	margin-top:3em;
+}
+   
+/* Footer*/
+
+.social hr{
+	border: 0;
+  border-top: 1px solid #eaebec;
+  margin-left:10em;
+  margin-right:15em;
+  margin-top:8em;
+}
+.social h5{
+	text-align: center;
+	font-size: 1.3em;
+	margin-top: 2em;
+
+}
+.social .icons >li :hover{
+  cursor:pointer;
+}
+ .social .icons >li {
+
+ border-radius: 1.25rem;
+  width: 2.5rem;
+  height: 2.5rem;
+  display: inline-block;
+  margin: 1.25rem 5px;
+  border: 1px solid #eaebec;
+  text-align:center;
+
+}
+
+.social .icons {
+	margin: 0 auto;
+	width:180px;
+
+}
+
+.social .twitter {
+	color: #55acee;
+}
+
+.social .facebook {
+	color: #4c66a4;
+}
+
+.social .instagram {
+	color: #3f729b;
+}
+
+.social .copy {
+  font-size: 0.9rem;
+  font-weight: 300;
+  color: #838994;
+   width: 180px;
+   margin-left: 60em;
+ }
+ .fa {
+ 	position:relative;
+ 	top: 11px;
+ }
+  
